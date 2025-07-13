@@ -27,4 +27,5 @@ class MyApp extends StatelessWidget {
       initialRoute: FirebaseAuth.instance.currentUser == null ? '/login' : '/inventory',
     );
   }
+
 }
